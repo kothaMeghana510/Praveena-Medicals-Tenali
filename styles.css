@@ -419,7 +419,7 @@ h3{
         top: 12vh;
         left: 0;
         
-        /*background: rgba(0, 123, 255, 0.9);*/
+        
         background-color: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(10px);
         width: 90vw;
@@ -459,7 +459,7 @@ h3{
         flex-direction: column;
         margin-top: 9em;
 
-        height: 100vh;
+        height: 100dvh;
 
         justify-content: center;
         align-items: center;
@@ -517,6 +517,8 @@ h3{
 
     .medicines-para, .general-para{
         margin: 0;
+        padding: 0;
+        text-align: justify;
     }
 
     .testimonial-heading, .contact--heading, .products-heading{
